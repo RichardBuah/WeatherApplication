@@ -1,0 +1,10 @@
+title 
+image
+
+choose your location
+search
+
+displqay weather and temperature
+date
+
+last location.

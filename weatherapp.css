@@ -1,0 +1,31 @@
+/* CSS RESET */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 800px;
+    min-height: 100vh;
+    background: linear-gradient(rgb(106, 106, 160),whitesmoke); 
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    position: sticky;
+    align-self: flex-end;
+}
+
+header {
+    flex-direction: column;
+    font-size: 1em;
+}
+
+.header-h1 {
+    color: whitesmoke; 
+    margin-top: 40px;
+}
