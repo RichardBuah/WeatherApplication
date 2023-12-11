@@ -4,24 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="weatherapp.css">
-    <title>Document</title>
+    <title>weatherApp</title>
 </head>
 <body>
     <header>
         <h1 class="header-h1">Welcome to the weather app</h1>
-        <h2 class="weather-h2">Choose your location</h2>
     </header>
     
-    <main class="main-container">
-        <div class="location-el">
-            
+    <main class="main-container" title="Click to change unit of temperature">
+
+        <div class="notification"></div>
+        
+        <div class="weather-icon">
+            <p class="weather-icon"><img src="images\404.png" alt="error404" width="400" height="400"></p>
         </div>
-        <div class="weather-forcast"></div>
-        <div class="temperature-el"></div>
+
+        <div class="temperature-el">
+            <p>-° C</p>
+        </div>
+
+        <div class="temp-discription">
+            <p>-</p>
+        </div>
+        
+        <div class="location-el">
+            <p>-</p>
+        </div>
+
+        <!-- <div class="country-el">
+            <P>-</P>
+        </div> -->
     </main>
 
     <footer>
-        <p>this is the end?</p>
+        <p>Stay Updated!</p>
     </footer>
+
+    <script src="weatherapp.js"></script>
 </body>
 </html>
